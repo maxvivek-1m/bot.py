@@ -3,9 +3,9 @@ from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 import os
 
 # Telegram Bot Token (GitHub Secrets me set karein)
-BOT_TOKEN =8096813477:AAHxk-ZDk-ojx7W953OaIOqjll6TGBUgghQ os.getenv("BOT_TOKEN")
+BOT_TOKEN =8096813477:AAHxk-ZDk-ojx7W953OaIOqjll6TGBUgghQ os.getenv("8096813477:AAHxk-ZDk-ojx7W953OaIOqjll6TGBUgghQ")
 
-bot = telebot.TeleBot(BOT_TOKEN)
+bot = telebot.TeleBot(8096813477:AAHxk-ZDk-ojx7W953OaIOqjll6TGBUgghQ)
 
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
